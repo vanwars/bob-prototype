@@ -37,12 +37,20 @@ h1 {
   padding: 2rem;
 }
 
+div#search-form {
+  background: #F4F4F4;
+  padding: 20px;
+  border: solid 1px #CCC;
+  border-radius: 4px;
+}
+
 form {
     display: grid;
     grid-template-columns: 250px auto;
     row-gap: 20px;
     column-gap: 20px;
     align-items: center;
+    margin: 10px;
 }
 
 button, input {
@@ -89,7 +97,8 @@ button:focus-visible {
     grid-template-columns: 1fr 1fr;
     row-gap: 20px;
     column-gap: 20px;
-    padding: 20px;
+    /* padding: 20px; */
+    margin-top: 40px;
 }
 
 .card {
@@ -98,6 +107,7 @@ button:focus-visible {
     grid-template-columns: auto 120px;
     align-items: center;
     padding: 5px;
+    border-radius: 4px;
 }
 
 .card .img {
@@ -105,6 +115,7 @@ button:focus-visible {
     height: 100%;
     background-size: cover;
     background-position: center center;
+    border-radius: 4px;
 }
 
 .card h2 {
